@@ -1,14 +1,20 @@
-Resources for the Workshop
-VMware player
+Resources for the Workshop 
+Lab Setup
+=========
+1. VMware player
 https://softwareupdate.vmware.com/cds/vmw-desktop/player/17.5.2/23775571/windows/core/
-Postman:
+
+2. Kali Linux
+https://www.kali.org/get-kali/#kali-virtual-machines
+
+3. Postman:
 sudo wget https://dl.pstmn.io/download/latest/linux64 -O postman-linux-x64.tar.gz && sudo tar -xvzf postman-linux-x64.tar.gz -C /opt && sudo ln -s /opt/Postman/Postman /usr/bin/postman
 
-Burp Suite:
+4. Burp Suite:
 $ sudo apt-get install burpsuite -y
 
-MITMProxy2Swagger
+5. MITMProxy2Swagger
 sudo pip3 install mitmproxy2swagger
 
-crAPI:
+6. crAPI:
 https://github.com/OWASP/crAPI
